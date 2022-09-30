@@ -1,0 +1,15 @@
+.carre{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(251, 0, 255);
+    margin: 5px;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;;
+}
+
+.bgGreen{
+    background-color: green;
+}
