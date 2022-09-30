@@ -1,0 +1,48 @@
+.carre1, .carre2, .carre3 {
+    background: red;
+    height: 200px;
+    width: 200px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px ;
+}
+
+.zone{
+    display: flex;
+    flex-direction: column;
+
+}
+
+body{
+    height: 100vh;
+    margin: 0px;
+}
+
+p{
+    margin: 0;
+}
+ 
+
+@media screen and (min-width: 1024px) {
+    .zone{
+        flex-direction: row;
+        justify-content: center;
+        width : 100px; 
+    }
+
+    .carre2{
+        background-color: blue;
+    }
+}
+
+
+
+
+
+
+
+
+
+
