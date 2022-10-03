@@ -1,42 +1,159 @@
-.carre1, .carre2, .carre3 {
-    background: red;
-    height: 200px;
-    width: 200px;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px ;
-}
-
-.zone{
-    display: flex;
-    flex-direction: column;
-
-}
-
 body{
-    height: 100vh;
-    margin: 0px;
+    background-color: #000;;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
 }
 
-p{
-    margin: 0;
-}
- 
-
-@media screen and (min-width: 1024px) {
-    .zone{
-        flex-direction: row;
-        justify-content: center;
-        width : 100px; 
-    }
-
-    .carre2{
-        background-color: blue;
-    }
+html {
+    --scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
+.navBar{
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+}
+
+.navBar .bouttonModifiable{
+    text-decoration: none;
+    margin: 30px 5vw;
+    font-style: normal;
+    height: min-content;
+    color: #F0F3FC;
+}
+
+.navBar .bouttonModifiable:hover{
+    font-style: bold;
+    color: #577DE0;
+    text-decoration: underline;
+}
+
+.navBar img {
+    width: 80px;
+    height: 80px;
+}
+
+.contTextHeader h1 {
+    font-size: 6vw;
+    margin: 2vw 1vw 0vw 10vw;
+}
+
+.simonGasser{
+    color: #F0F3FC;
+}
+
+.votreFuturDevWeb{
+    color: #577DE0;
+}
+
+.imageSignature{
+    width: 400px;
+    margin: 0vw 0vw 1vw 25vw;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    margin-top: 150px;
+}
+
+.contImageHeader img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.contImageHeader{
+    width: 284px;
+    margin: 4vw 12vw 6vw 0;
+}
+
+.barreGrise{
+    height: 2px;
+    width: 90vw;
+    background-color: #67686A;
+}
+
+.contBarreGrise{
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    display: flex;
+    justify-content: center;
+}
+
+.contTextAPropos h2, .contMesProjets h2{
+    margin-bottom: 6vh;
+    font-size: 2vw;
+    color: #67686A; 
+}
+
+.contTextAPropos h3{
+    margin-bottom: 4vh  ;
+    font-size: 4vw;
+    color: #F0F3FC;
+}
+
+.contTextAPropos p{
+    width: 70%;
+    font-size: 1.5vw;
+    color: #F0F3FC;
+}
+
+.contAPropos{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contAPropos img{
+    height: 100%;
+    width: 100%;
+}
+
+.contImageAPropos {
+    margin: 5vw 15vw 5vw 1vw;
+}
+
+.contTextAPropos{
+    margin: 1vw 1vw 1vw 10vw;
+}
+
+.contMesProjets{
+    margin: 1vw 9vw 1vw 9vw;
+}
+
+.contMesProjets h3{
+    font-size: 3vw;
+    color: #F0F3FC;
+}
+
+.contProjet1{
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw 6vw 2vw 2vw;
+    align-items: center;
+}
+
+.contProjet2{
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw 2vw 2vw 6vw;
+    align-items: center;
+}
+
+
+.contProjet1 h3{
+    margin-left: 5vw;
+}
+
+.contProjet2 h3{
+    margin-right: 5vw;
+}
 
 
 
